@@ -1,0 +1,242 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 15px;
+  --background: #070B17;
+  --foreground: #DDE3F5;
+  --card: #0C1122;
+  --card-foreground: #DDE3F5;
+  --popover: #0C1122;
+  --popover-foreground: #DDE3F5;
+  --primary: #6366F1;
+  --primary-foreground: #ffffff;
+  --secondary: #131828;
+  --secondary-foreground: #A0AECB;
+  --muted: #131828;
+  --muted-foreground: #627090;
+  --accent: #8B5CF6;
+  --accent-foreground: #ffffff;
+  --destructive: #EF4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(99, 102, 241, 0.12);
+  --input: #131828;
+  --input-background: #131828;
+  --switch-background: #1E2640;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #6366F1;
+  --chart-1: #6366F1;
+  --chart-2: #8B5CF6;
+  --chart-3: #10B981;
+  --chart-4: #F59E0B;
+  --chart-5: #EF4444;
+  --radius: 0.75rem;
+  --sidebar: #050810;
+  --sidebar-foreground: #DDE3F5;
+  --sidebar-primary: #6366F1;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #131828;
+  --sidebar-accent-foreground: #DDE3F5;
+  --sidebar-border: rgba(99, 102, 241, 0.08);
+  --sidebar-ring: #6366F1;
+}
+
+.dark {
+  --background: #070B17;
+  --foreground: #DDE3F5;
+  --card: #0C1122;
+  --card-foreground: #DDE3F5;
+  --popover: #0C1122;
+  --popover-foreground: #DDE3F5;
+  --primary: #6366F1;
+  --primary-foreground: #ffffff;
+  --secondary: #131828;
+  --secondary-foreground: #A0AECB;
+  --muted: #131828;
+  --muted-foreground: #627090;
+  --accent: #8B5CF6;
+  --accent-foreground: #ffffff;
+  --destructive: #EF4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(99, 102, 241, 0.12);
+  --input: #131828;
+  --ring: #6366F1;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: #6366F1;
+  --chart-2: #8B5CF6;
+  --chart-3: #10B981;
+  --chart-4: #F59E0B;
+  --chart-5: #EF4444;
+  --sidebar: #050810;
+  --sidebar-foreground: #DDE3F5;
+  --sidebar-primary: #6366F1;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #131828;
+  --sidebar-accent-foreground: #DDE3F5;
+  --sidebar-border: rgba(99, 102, 241, 0.08);
+  --sidebar-ring: #6366F1;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* ─── OmniDesk AI Theme Tokens ─────────────────────────────────── */
+/* ── Dark Mode (default) ── */
+:root {
+  --od-bg:       #0B1021;
+  --od-surface:  #0F1630;
+  --od-s2:       #141B35;
+  --od-border:   rgba(79,70,229,0.15);
+  --od-text:     #E2E8F8;
+  --od-muted:    #94A3B8;
+  --od-dimmed:   #4F6080;
+  --od-glass:    rgba(255,255,255,0.04);
+  --od-sidebar:  #060C1A;
+  --od-topbar:   rgba(6,12,26,0.96);
+  --od-nav-bg:   rgba(11,16,33,0.94);
+  --od-input-bg: #141B35;
+  --od-shadow:   0 8px 32px rgba(0,0,0,0.5);
+  --od-shadow-lg:0 20px 60px rgba(0,0,0,0.6);
+  --od-hover:    rgba(255,255,255,0.05);
+  --od-danger:   #EF4444;
+}
+
+/* ── Light Mode ── */
+[data-theme="light"] {
+  --od-bg:       #F4F6FF;
+  --od-surface:  #FFFFFF;
+  --od-s2:       #EEF0FF;
+  --od-border:   rgba(79,70,229,0.16);
+  --od-text:     #0F172A;
+  --od-muted:    #374151;
+  --od-dimmed:   #6B7A9E;
+  --od-glass:    rgba(255,255,255,0.85);
+  --od-sidebar:  #E8EBFF;
+  --od-topbar:   rgba(240,242,255,0.97);
+  --od-nav-bg:   rgba(244,246,255,0.97);
+  --od-input-bg: #EEF0FF;
+  --od-shadow:   0 4px 16px rgba(79,70,229,0.12);
+  --od-shadow-lg:0 12px 40px rgba(79,70,229,0.16);
+  --od-hover:    rgba(79,70,229,0.05);
+  --od-danger:   #DC2626;
+}
+
+/* ── Light mode overrides for glass cards and surfaces ── */
+[data-theme="light"] .rounded-2xl[class*="border"] {
+  box-shadow: var(--od-shadow);
+}
+
+/* ── Smooth theme transitions ── */
+*, *::before, *::after {
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+/* Exclude transitions for interactive elements that need instant response */
+button, a, input, textarea, select {
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease, opacity 0.15s ease, transform 0.12s ease;
+}
+/* ──────────────────────────────────────────────────────────────── */
+
+@keyframes typingBounce {
+  0%, 100% { transform: translateY(0); }
+  40%       { transform: translateY(-5px); }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /**
+  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
+  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
+  */
+
+  html {
+    font-size: var(--font-size);
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+}
